@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<productAvailable xmlns="http://www.soabwebservice.com/product-available"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://www.soabwebservice.com/product-available product-schema.xsd">
+
+  <id>034</id>
+  <name>table</name>
+  <description>wooden table</description>
+
+  <price>45.34</price>
+  <image>45.45</image>
+
+</productAvailable>
+

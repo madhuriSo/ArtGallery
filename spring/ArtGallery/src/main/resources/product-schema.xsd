@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.soabwebservice.com/product-available"
+        xmlns:mp="http://www.soabwebservice.com/product-available" elementFormDefault="qualified">
+
+
+    <element name="productAvailable" type="mp:ProductAvailable"/>
+
+    <complexType name="ProductAvailable">
+        <sequence>
+
+            <element name="id" type="string" minOccurs="1" maxOccurs="1"/>
+            <element name="name" type="string" minOccurs="1" maxOccurs="1"/>
+            <element name="description" type="string" minOccurs="1" maxOccurs="1"/>
+            <element name="price" type="float" minOccurs="1" maxOccurs="1"/>
+            <element name="image" type="string" minOccurs="0" maxOccurs="1"/>
+        </sequence>
+    </complexType>
+
+</schema>
